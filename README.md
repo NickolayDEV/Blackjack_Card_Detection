@@ -17,7 +17,7 @@ Special attention was given to dataset design: the images were collected and aug
 ---
 
 ## 📂 Project Structure
-
+<pre lang="text"> ```text #
 BLACKJACK/
 ├── datasets/ # Raw and processed datasets
 ├── models/ # Pretrained and fine-tuned model weights
@@ -31,7 +31,7 @@ BLACKJACK/
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Files ignored by Git
 └── README.md # Project documentation
-
+ ``` </pre>
 
 ---
 
