@@ -48,35 +48,55 @@ BLACKJACK/
 
 ---
 
-## 🔧 Installation
+Вот как правильно и красиво оформить этот блок для `README.md`, в соответствии с GitHub Markdown-стилем:
+
+---
+
+## 🛠 Installation
 
 ```bash
 git clone https://github.com/your-username/blackjack-card-detector.git
 cd blackjack-card-detector
+```
 
-🔹 Option 1: Using venv + pip
+### 🔹 Option 1: Using `venv` + `pip`
 
+```bash
 python -m venv venv
-source venv/bin/activate      # or venv\Scripts\activate on Windows
+source venv/bin/activate        # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-🔹 Option 2: Using Conda and environments.yml
+### 🔹 Option 2: Using Conda and `environments.yml`
 
+```bash
 conda env create -f environments.yml
-conda activate blackjack-env  
+conda activate blackjack-env
+```
 
-🏁 Quick Start
-▶️ Inference on a webcam:
+---
 
+## 🚀 Quick Start
+
+### ▶️ Run inference on webcam
+
+```bash
 python scripts/inference/YOLOCardsCamera.py
+```
 
-🧠 Train YOLOv11:
+### 🧠 Train YOLOv11
 
+```bash
 python scripts/training/retinatrain.py
+```
 
-🧰 Generate dataset:
+### 🧰 Generate dataset
 
+```bash
 python scripts/dataset_prep/generatedataset.py
+```
+
+---
 
 📈 Dataset Format
 
